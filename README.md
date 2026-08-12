@@ -1,6 +1,6 @@
 # ArduPilot Custom Hardware Definition — DakeFPV H743
 
-Unofficial ArduPilot `hwdef` target and pre-compiled firmware for the **DakeFPV H743** flight controller (STM32H743 MCU), built from scratch since no official ArduPilot build was available from the manufacturer or the main firmware server.
+Unofficial ArduPilot `hex` target and pre-compiled firmware for the **DakeFPV H743** flight controller (STM32H743 MCU), tweaked since no official ArduPilot build was available from the manufacturer or the main firmware server.
 
 ## Background
 
@@ -22,7 +22,7 @@ The DakeFPV H743 had no upstream ArduPilot support at the time of writing. This 
 
 The included `.hex` was modified from the base ArduPilot build to add:
 
-- **LSM6** IMU driver support
+- **LSM6x Series** IMU driver support
 - **DPS310 / DPS280** barometer driver support
 - **Bluejay** ESC firmware for the paired ESC
 
