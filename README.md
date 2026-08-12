@@ -34,18 +34,14 @@ DShot output wasn't reaching the ESC on the initial build — flashing the ESC w
 
 ```
 .
-├── hwdef/
-│   └── DakeFPV-H743/
-│       └── hwdef.dat        # Custom hardware definition
-├── firmware/
-│   ├── arducopter_dakefpv_h743.apj
-│   └── arducopter_dakefpv_h743_bluejay.hex
+├── firmware
+│   └── arducopter_dakefpv_h743_blue.hex
 └── README.md
 ```
 
 ## Installation
 
-1. Download the appropriate `.apj` (or the modified `.hex`) from the [`firmware/`](./firmware) folder.
+1. Download the appropriatethe modified `.hex`) from the [`firmware/`](./firmware) folder.
 2. Connect the DakeFPV H743 via USB in bootloader mode.
 3. Flash using Mission Planner, QGroundControl, or `dfu-util`, depending on your workflow.
 4. On first boot, verify:
