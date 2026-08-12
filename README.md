@@ -80,4 +80,4 @@ This is an unofficial, community-built target. It is not supported by DakeFPV or
 
 ## License
 
-This project follows ArduPilot's GPLv3 license. See [LICENSE](./LICENSE) for details.
+This project follows MIT license. See [LICENSE](./LICENSE) for details.
